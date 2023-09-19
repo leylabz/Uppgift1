@@ -134,6 +134,10 @@ li {
     font-style:italic;
 }
 
+form{
+    padding-left: 5%;
+}
+
 footer {
     text-align: center;
     color: grey;
