@@ -32,24 +32,16 @@ class ="center">
 
 
 
-    <form>
-    <form id="form" name="form" method="post" action=" ">
-
-        Förnamn:<br>
-        <input type="text" name="fnamn" id="fnamn" /> <br>
-        
-        Efternamn:<br>
-        <input type="text" name="enamn" id="enamn" /> <br>
-        
-        E-post:<br>
-        <input type="text" name="epost" id="epost" /> <br>
-        
-        Kurs:<br>
-        <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br>
-        
-        <input type="submit" name="skicka" id="skicka" value="Skicka" />
-        
-        </form>
+    <form action="/action_page.php" method="get" target="_blank">
+        <label for="fname">Namn:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="Epost">Epost:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="kurs">Kurs</label>
+        <input type="text" id="kurs" name="kurs"><br><br>
+        <input type="submit" value="Skicka">
+        <form action="Kurser.html" target="_blank"></form>
+      </form>
 
     <hr></hr>
     
