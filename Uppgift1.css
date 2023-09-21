@@ -4,7 +4,7 @@
 }
 
 
-.box{
+.box-header{
     width: 740px;
     border-radius: 20px;
     padding: 10px;
@@ -86,9 +86,6 @@ p {
     padding-left: 5%;
 }
 
-.erbjudande{
-    color: black;
-}
 
 .menu{
     width: 720px;
@@ -115,7 +112,7 @@ p {
     font-size: large;
 }
 
-.box2{
+.box-content{
     width: 680px;
     border-radius: 20px;
     padding: 40px;
@@ -141,4 +138,24 @@ form{
 footer {
     text-align: center;
     color: grey;
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    
+}
+
+.item {
+    width: 100px;
+
+}
+
+/*  */
+
+
+.item3 {
+    width: 50px;
+
 }
