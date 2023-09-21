@@ -109,7 +109,7 @@ p {
 }
 
 .active2 {
-    word-spacing: 0%;
+    word-spacing: normal;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -127,7 +127,7 @@ p {
 }
 
 li {
-    padding-left: 5%
+    margin-left: 10%;
 }
 
 .titel{
